@@ -26,3 +26,5 @@ via OAI-PMH and the pyoaiharvester.py (https://github.com/vphill/pyoaiharvester)
 python pyoaiharvester.py -l http://URL/oai/request -o etd.xml -s col_1_733 -m xoai
 
 Then the xml was parsed into a tsv file with xml_parser.py
+
+The final result is here: http://scholarworks.montana.edu/
