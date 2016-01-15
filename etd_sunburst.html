@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+This ETD sunburst was created from using various bits of "borrowed" code as well
+as new code of my own, the main bits are attributed as follows:
+
+Zoomable Sunburst code (the key part being data from csv rather than flare.json)
+- Chapter 7 from Stephen A Thomas' great book,
+"Data Visualization with JavaScript"
+Chapter 7: http://jsdatav.is/chap07.html
+
+Clickable tooltips - from d3noob: http://bl.ocks.org/d3noob/c37cb8e630aaef7df30d
+
+Legend - Kerry Rodden: http://bl.ocks.org/kerryrodden/7090426
+
+James Espeland my co-worker helped me figure out how to sort by "Year"
+rather than value
+
+Over all understanding of d3 from Scott Murray's great book, "Interactive data
+visualization for the web" - http://chimera.labs.oreilly.com/books/1230000000345
+
+Of course none of this would be possible without the d3.js library created by
+Mike Bostock for information on d3.js go here: http://d3js.org/
+-->
+<head>
+    <meta charset='utf-8'>
+    <title>Montana State University - ETDs</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href="scholarworks-styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="etd-sunburst">
+    <div id="tooltip" class="hidden">
+        <p><strong>Important Label Heading</strong></p>
+        <p><span id="value">100</span>%</p>
+  </div>
+    <script src='http://d3js.org/d3.v3.min.js'></script>
+  <script type="text/javascript" src="sunburst.js"></script>
+    </div>
+
+
+
+
+</body>
+</html>
