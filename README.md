@@ -1,4 +1,8 @@
 # ETD_sunburst
+
+***The result of this project is no longer available online due to it not meeting accessibility standards.***
+
+--------------
 This ETD sunburst was created from using various bits of "borrowed" code as well
 as new code of my own, the main bits are attributed as follows:
 
@@ -27,4 +31,4 @@ python pyoaiharvester.py -l http://URL/oai/request -o etd.xml -s col_1_733 -m xo
 
 Then the xml was parsed into a tsv file with xml_parser.py
 
-The final result is here: http://scholarworks.montana.edu/
+
